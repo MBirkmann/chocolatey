@@ -11,9 +11,10 @@ choco install filezilla -y
 choco install winscp -y
 choco install putty -y
 
-# Install Browsers
+# Install Browsers and Mail Client
 choco install firefox -y 
 choco install googlechrome -y
+choco install thunderbird -y 
 
 # Install Media Tools
 choco install eac -y
