@@ -6,6 +6,7 @@
 
 <code>
 Set-ExecutionPolicy Unrestricted -Force -Scope Process;
+  
 iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force
 </code>
 
