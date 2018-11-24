@@ -24,6 +24,15 @@ choco upgrade chocolatey
 .\install-script.ps1 
 </code>
 
+<h2>Create Desktop Shortcuts</h2>
+<p>If desktop shortcuts should be automatically created the helper module <a href="https://chocolatey.org/docs/helpers-install-chocolatey-shortcut">Install-ChocolateyShortcut</a> could be used in a Windows PowerShell script followed by the command(s) to create the shortcut(s):</p>
+
+<code>
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force
+
+Install-ChocolateyShortcut -ShortcutFilePath "C:\Users\max\Desktop\FileZilla.lnk" -TargetPath "C:\Program Files\FileZilla FTP Client\filezilla.exe"  
+</code>
+
 <h2>Frequent Commands</h2>
 
 <ul>
