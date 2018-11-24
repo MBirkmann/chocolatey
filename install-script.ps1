@@ -4,7 +4,7 @@ choco install cmdermini -y
 choco install autoruns -y
 choco install procexp -y
 choco install procmon -y
-choco install freecommander-xe.install-y
+choco install freecommander-xe.install -y
 choco install treesizefree -y
 choco install ant-renamer -y
 choco install filezilla -y
@@ -33,7 +33,7 @@ choco install irfanview -y
 choco install mediainfo -y
 choco install calibre -y 
 
-# Install
+# Install Applications
 choco install inkscape -y
 choco install pencil -y
 
