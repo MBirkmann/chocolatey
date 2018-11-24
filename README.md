@@ -24,6 +24,9 @@ choco upgrade chocolatey
 <li><code>choco install &lt;pkg&gt;</code></li>
 <li><code>choco upgrade &lt;pkg&gt;</code></li>
 <li><code>choco upgrade all</code></li>
+<li><code>choco feature list</code></li>
+<li><code>choco feature disable -n=bob</code></li>
+<li><code>choco feature enable -n=bob</code></li>
 </ul>
 
 <h2>Links</h2>
