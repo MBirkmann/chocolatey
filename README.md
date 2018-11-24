@@ -10,12 +10,6 @@ Set-ExecutionPolicy Unrestricted -Force -Scope Process;
 iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex 
 </code>
 
-Optionally, if shortcuts should be automatically created the helper module <a href="https://chocolatey.org/docs/helpers-install-chocolatey-shortcut">Install-ChocolateyShortcut</a> could be installed:
-
-<code>
-Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force  
-</code>
-
 <h2>Upgrade</h2>
 <p>To upgrading Chocolatey to the latest stable release you can use the following command:</p>
 
