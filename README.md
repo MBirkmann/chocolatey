@@ -21,7 +21,7 @@ choco upgrade chocolatey
 <p>To run the <a href="/install-script.ps1">install-script.ps1</a> launch the Windows PowerShell, navigate to the directory where the script lives and execute the script:</p>
 
 <code>
-.\install-script.ps1 (enter) 
+.\install-script.ps1 
 </code>
 
 <h2>Frequent Commands</h2>
