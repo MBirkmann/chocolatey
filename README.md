@@ -2,7 +2,7 @@
 <p>Document the software automation process with Chocolatey.</p>
 
 <h2>Installation</h2>
-<p>Open the PowerShell as administrator and then install Chocolatey using the following commands:</p>
+<p>Open the Windows PowerShell as administrator and then install Chocolatey using the following commands:</p>
 
 <code>
 Set-ExecutionPolicy Unrestricted -Force -Scope Process;
