@@ -17,6 +17,13 @@ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex Import-Module "$en
 choco upgrade chocolatey
 </code>
 
+<h2>Run install script</h2>
+<p>To run the <a href="/install-script.ps1">install-script.ps1</a> launch the Windows PowerShell, navigate to the directory where the script lives and execute the script:</p>
+
+<code>
+.\install-script.ps1 (enter) 
+</code>
+
 <h2>Frequent Commands</h2>
 
 <ul>
@@ -29,13 +36,6 @@ choco upgrade chocolatey
 <li><code>choco feature disable -n=bob</code></li>
 <li><code>choco feature enable -n=bob</code></li>
 </ul>
-
-<h2>Run install script</h2>
-<p>To run the <a href="/install-script.ps1">install-script.ps1</a> launch the Windows PowerShell, navigate to the directory where the script lives and execute the script:</p>
-
-<code>
-.\install-script.ps1 (enter) 
-</code>
 
 <h2>Links</h2>
 <ul>
