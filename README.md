@@ -30,6 +30,13 @@ choco upgrade chocolatey
 <li><code>choco feature enable -n=bob</code></li>
 </ul>
 
+<h2>Run install script</h2>
+To run the <a href="/install-script.ps1">install-script.ps1</a> launch the Windows PowerShell, navigate to the directory where the script lives and execute the script:
+
+<code>
+.\install-script.ps1 (enter) 
+</code>
+
 <h2>Links</h2>
 <ul>
 <li><a href="https://chocolatey.org/" rel="nofollow">Chocolatey</a></li>
