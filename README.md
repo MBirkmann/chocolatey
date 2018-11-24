@@ -22,6 +22,7 @@ choco upgrade chocolatey
 <ul>
 <li><code>choco list -l</code></li>
 <li><code>choco install &lt;pkg&gt;</code></li>
+<li><code>choco uninstall &lt;pkg&gt;</code></li>
 <li><code>choco upgrade &lt;pkg&gt;</code></li>
 <li><code>choco upgrade all</code></li>
 <li><code>choco feature list</code></li>
