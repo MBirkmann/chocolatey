@@ -22,6 +22,7 @@ choco install vidcutter -y
 choco install h264tscutter -y
 choco install mp3tag -y
 choco install mediathekview -y
+choco install mediainfo -y
 choco install cdburnerxp -y
 
 # Install Media Player / Reader
@@ -31,7 +32,6 @@ choco install kinovea -y
 choco install sumatrapdf -y
 choco install pdfxchangeeditor -y
 choco install irfanview -y 
-choco install mediainfo -y
 choco install calibre -y 
 
 # Install Applications
