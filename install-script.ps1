@@ -1,8 +1,6 @@
 # Install System Utilities
 choco install 7zip -y
 choco install cmdermini -y
-choco install vscode -y
-choco install notepadplusplus -y
 choco install autoruns -y
 choco install procexp -y
 choco install procmon -y
@@ -52,6 +50,7 @@ choco install maven -y
 choco install intellijidea-ultimate -y
 choco install eclipse -y
 choco install vscode -y
+choco install notepadplusplus -y
 choco install nodejs -y
 choco install git -y 
 choco install sourcetree -y
